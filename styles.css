@@ -1,0 +1,52 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center all content */
+}
+
+header, section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #00FFFF; /* Light blue color for titles */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p, a {
+    color: #FFFFFF; /* White color for text */
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: #FF00FF; /* Purple color for links */
+}
+
+a.subscribe-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FF00FF; /* Purple button */
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a.subscribe-button:hover {
+    background-color: #00FFFF; /* Light blue hover effect */
+    color: #000000;
+}
